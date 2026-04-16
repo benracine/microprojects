@@ -1,0 +1,40 @@
+  525  cd ../../micropjects/
+  526  ls
+  527  mv hello/ add_two_numbers
+  528  cd add_two_numbers/
+  529  cargo run
+  530  cargo test
+  531  cargo test --open
+  532  cargo doc --open
+  533  cargo run --release
+  534  cargo run 
+  535  cargo build
+  536  vim .gitignore 
+  537  ls
+  538  cargo run
+  539  cargo test
+  540  cargo nextest
+  541  cargo nextest run
+  542  cargo install cargo-llvm-cov
+  543  cargo llvm-cov nextestcargo llvm-cov nextest --html
+  544  cargo llvm-cov nextest --html
+  545  ls
+  546  ls target
+  547  open target/llvm-cov/html/index.html 
+  548  cargo llvm-cov nextest --html
+  549  cd ../..
+  550  cd micropjects/add_two_numbers/
+  551  cargo llvm-cov nextest --html
+  552  cargo llvm-cov nextest --html
+  553  cargo test
+  554  cargo build
+  555  cargo test
+  556  cargo llvm-cov nextest --html
+  557  open target/llvm-cov/html/index.html 
+  558  cargo llvm-cov nextest --html --mcdc
+  559  cargo +nightly llvm-cov nextest --mcdc
+  560  cargo llvm-cov nextest
+  561  cargo +nightly llvm-cov nextest --mcdc
+  562  touch notes
+  563  history
+  564  history > notes.txt
