@@ -56,3 +56,8 @@ Small crate you can walk through with newcomers: one library function, one binar
 5. Optionally run **`cargo nextest run`** if installed — contrast with `cargo test`.
 
 ## Add some notes about cargo watch
+
+```bash
+cargo install cargo-watch
+cargo watch -x check -x clippy -x test -x run
+```
