@@ -1,0 +1,12 @@
+[package]
+name = "egui-arch-01"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.34.1"
+egui = "0.34.1"
+
+[dev-dependencies]
+egui_kittest = { version = "0.34.1", features = ["eframe"] }
+kittest = "0.4.0"
