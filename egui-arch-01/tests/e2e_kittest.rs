@@ -7,12 +7,12 @@ fn e2e_arm_then_fire_updates_ui_state() {
 
     harness.get_by_label("Arm").click();
     harness.run();
-    harness.get_by_label_contains("Armed: true");
+    harness.get_by_label_contains("Status: Armed");
 
     harness.get_by_label("Fire").click();
     harness.run();
 
-    harness.get_by_label_contains("Firing: true");
+    harness.get_by_label_contains("Status: Firing");
     harness.get_by_label_contains("Last action: Fired");
 }
 
